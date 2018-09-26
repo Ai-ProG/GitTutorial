@@ -1,0 +1,11 @@
+
+To see the history use: git log {option --oneline}
+  
+  Methods to reset [ Checkout commit--Revert commit--Reset commit ]
+   git checkout <id> --- revert back to the id what was done
+   git checkout master --- get back to original.
+  
+   git revert <id> --- undo the file what done in given id
+  
+   git reset <id> --- removes all the commit afterward but they will be in staging area
+   git reset <id> --hard ---removes totally.
