@@ -1,0 +1,14 @@
+Forking the repo.
+Click on fork button.
+Download or Clone in local folder using git clone https://github.com/Ai-ProG/<filename>.git
+Go to that directory.
+git status
+open in text editor
+make some changes.
+git add .
+git commit -m "made changes"
+git push origin master 
+goto git account
+click on new pull request> create pull request(add comment)
+Wait for original create review.He will see pull request and changes made.Ig he is happy
+He will merge pull request> confirm merge.
