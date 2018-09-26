@@ -1,0 +1,3 @@
+Branches creates a isolated environment to test the code.
+Since it does not make changes to master branch we can test or delete if it doesnot work.
+IF our test works we can merge to the master branch using merge commit.
