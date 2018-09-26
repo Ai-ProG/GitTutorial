@@ -1,0 +1,40 @@
+git branch -a
+goto branch
+git checkout <branchname-1>
+git checkout <branchname-2>
+
+if you are happy to merge
+git checkout master
+git merge <branchname-2> lets say you are happy with 2
+
+If there is some conflicts lets say c wants to write some feature but master also has made the changes like c wants
+
+
+git checkout -b branch-c
+git checkout master
+
+master made some file c wants to work.
+git add .
+git commit -m " add some new things"
+
+But c was working the same file.
+
+git checkout branch-c
+edited the same type of file
+git add .
+git commit -m "added some feature"
+
+git checkout master
+
+git merge branch-c
+throws an error merge fail.
+
+now check the file with error and edit then
+git add .
+git commit
+show the commit file
+use :q
+now it will merge the branch
+
+git log --oneline
+
