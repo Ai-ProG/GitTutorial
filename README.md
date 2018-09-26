@@ -1,7 +1,7 @@
 # GitTutorial
-===============================
+======================
 Basic github tutorials (Steps)
-===============================
+======================
 
 To begin, open up a terminal/cmd and move to the directory(cd command) where your project is.
 To initialize a git repository use --> git init
