@@ -1,6 +1,6 @@
 # GitTutorial
 
-Basic github tutorials (Steps)
+Basic Git Steps
 
 1.git init
 2.git status
