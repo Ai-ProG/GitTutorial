@@ -1,3 +1,44 @@
 Branches creates a isolated environment to test the code.
 Since it does not make changes to master branch we can test or delete if it doesnot work.
 IF our test works we can merge to the master branch using merge commit.
+
+git branch <branchname>
+to see branch
+git branch -a
+
+to checkout branch
+git checkout <branchname>
+
+show switched to branch ..
+
+so check git branch -a it will shows you in new branch
+
+edit some text
+git add .
+git status
+git commit -m "added new feature"
+
+so it is in isolate branch now go to master branch
+
+master branch is not edited to check 
+git checkout master----it will switch to master
+
+you can delete branch if anythings goes wrong use
+Person -1
+git branch -D <branchname>
+
+git checkout -b <branchname> ----switch and create to new branch
+
+git add .
+git commit -m "added some feature"
+
+Person -2
+git checkout -b <branchname> ----switch and create to new branch
+
+git add .
+git commit -m "added some feature2"
+
+git checkout master----doesnot show any branch created by both person
+git branch -a --- to see if there are any branches created
+
+
